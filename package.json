@@ -1,7 +1,7 @@
 {
   "name": "@gibf/utils",
   "type": "module",
-  "version": "0.0.1-beta.6",
+  "version": "0.0.1-beta.7",
   "description": "BF's utils",
   "author": "BF <2581807417@qq.com>",
   "license": "ISC",
@@ -9,9 +9,9 @@
     "utils",
     "node-utils"
   ],
-  "main": "dist/index.cjs",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -19,9 +19,9 @@
       "require": "./dist/index.cjs"
     },
     "./node": {
-      "types": "./dist/node/index.d.ts",
-      "import": "./dist/node/index.mjs",
-      "require": "./dist/node/index.cjs"
+      "types": "./dist/node.d.ts",
+      "import": "./dist/node.mjs",
+      "require": "./dist/node.cjs"
     }
   },
   "files": [
