@@ -4,11 +4,7 @@ import { basename } from 'path'
 
 export default defineBuildConfig({
   entries:[
-    ...fg.sync('src/**/*.ts',{
-      ignore:['src/**/*test.ts'],
-    }).map(f => ({
-      name:f.slice(4,-3),
-      input:f.slice(0,-3)}))
+    "./src/index.ts",
   ],
   declaration: true,
   rollup: {
