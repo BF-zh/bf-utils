@@ -1,7 +1,7 @@
 # @bf/utils
 
-[![NPM version](https://img.shields.io/npm/v/@bf/utils?color=a1b858&label=)](https://www.npmjs.com/package/@bf/utils)
-[![Docs](https://www.paka.dev/badges/v0/cute.svg)](https://www.paka.dev/npm/@bf/utils)
+[![NPM version](https://img.shields.io/npm/v/@gibf/utils?color=a1b858&label=)](https://www.npmjs.com/package/@bf/utils)
+[![Docs](https://www.paka.dev/badges/v0/cute.svg)](https://www.paka.dev/npm/@gibf/utils)
 
 Opinionated collection of common JavaScript / TypeScript utils by [@BF](https://github.com/bf-zh).
 
