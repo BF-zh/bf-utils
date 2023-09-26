@@ -1,13 +1,12 @@
 {
   "name": "@gibf/utils",
   "type": "module",
-  "version": "0.0.1-beta.7",
+  "version": "0.0.1-beta.8",
   "description": "BF's utils",
   "author": "BF <2581807417@qq.com>",
   "license": "ISC",
   "keywords": [
-    "utils",
-    "node-utils"
+    "utils"
   ],
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
@@ -17,11 +16,6 @@
       "types": "./dist/index.d.ts",
       "import": "./dist/index.mjs",
       "require": "./dist/index.cjs"
-    },
-    "./node": {
-      "types": "./dist/node.d.ts",
-      "import": "./dist/node.mjs",
-      "require": "./dist/node.cjs"
     }
   },
   "files": [
